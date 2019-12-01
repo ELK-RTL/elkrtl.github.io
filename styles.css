@@ -1,0 +1,143 @@
+body {  
+  background-color: 	#00FFFF;
+  font-family: "Times new roman", sans-serif;
+  
+}
+body {
+    background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, cyan 21.42%, cyan 28.56%, blue 35.7%, magenta 42.84%, purple 50%,white);
+    background-size: 600vw 600vw;
+    background-position:0;
+    animation: slide 10s infinite linear forwards;
+}
+
+footer {
+  color: black;
+}
+footer img { border-radius: 5%;
+    width: 1000px;}
+p1  { margin-left: 300px; }
+nav  {
+    background-color: white;
+    border-style: solid;
+  border-color: MediumVioletRed;
+  border-width: 2px;
+  padding: 10px;
+   border-radius: 10px;
+ 
+}
+nav a {
+   color: red;
+   margin-right: 10px;
+    margin-left: 10px;
+    
+}
+nav a:hover{
+  animation-name: rainbowGlow;
+    animation-duration: 1.5s;
+    animation-iteration-count: 10;
+}
+ul a:hover{ animation-name: rainbowGlow;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;}
+img {   border-radius: 10%;
+    width: 500px;
+  
+}
+
+img:hover {
+  animation-name: rollOver;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+ul li {border-radius:1%;}
+ul li:hover{
+  border:5px dotted black;
+}
+.Links {
+  text-decoration: none;
+  color: #FFFAF0;
+}
+.Links:hover {
+  color: #00FF7F;
+}
+@keyframes myFirstAnimation {
+    from {
+        width: 200px;
+    }
+    to {
+        width: 300px;
+    }
+    from{
+      width:300px;
+    }
+    to{
+      width:200px;
+    }
+}
+@keyframes rainbowGlow {
+    0% {
+        color: #FFD700;
+    }
+    50% {
+        color: #663399;
+    }
+    100% {
+        color: #FFD700;
+    }
+}
+
+@keyframes slide {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 600vw;
+    }
+}
+
+
+@keyframes rollOver {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************
+This section is for styling tables
+***********************************/
+table, th, td {
+  border: 1px solid HoneyDew;
+  border-collapse: collapse;
+}
+tr {
+  background-color: PaleTurquoise;
+}
+th, td {
+  vertical-align: top;
+  padding: 5px;
+  text-align: left;
+}
+th {
+  color: purple;
+}
+td {
+  color: purple;
+}
+/********************************/
